@@ -19,7 +19,7 @@ For best user experience you should add following permissions to your info.plist
 3. Privacy - Media Library Usage Description
 ```
 
-If you will not add `Media Library Usage Description` app will crash whe user tries to upload file in mluvii chat
+If you will not add `Media Library Usage Description` app will crash when user tries to upload file in mluvii chat
 
 More info on [Apple Developer Portal](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources)
 
