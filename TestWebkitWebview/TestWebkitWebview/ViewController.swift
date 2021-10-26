@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
         // Vytvoření WKWebView, které načte url podle zadaného serveru, company GUID, tenant ID, preset name a požadovaného jazyku
         // url, companyGuid a tenantId jsou povinné proměnné, presetName, language a scope můžou být nil
-        chat?.createWebView(url: "app.mluvii.com", companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e", tenantId: "62", presetName: "demoCenter", language: nil, scope: nil)
+        chat?.createWebView(url: "ptr.mluvii.com", companyGuid: "295b1064-cf5b-4a5d-9e05-e7a74f86ae5e", tenantId: "1", presetName: nil, language: nil, scope: nil)
     }
     
     // Funkce, která otevře chat ve WebView a maximalizuje ho
